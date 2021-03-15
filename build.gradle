@@ -8,6 +8,10 @@ group = 'com.peppermint100'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
+bootJar {
+	archiveName("spring-docker.jar")
+}
+
 repositories {
 	mavenCentral()
 }

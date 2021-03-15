@@ -11,7 +11,7 @@ public class DockerpracticeApplication {
 
 	@GetMapping("/")
 	public String hello(){
-	    return "Hello Docker!! added git";
+	    return "Hello Docker!! jar file gradle";
     }
 
 	public static void main(String[] args) {
