@@ -30,7 +30,7 @@ public class OrderController {
     }
 
     @PostMapping("")
-    public Order makeOrder(@Valid @RequestBody Order order){
+    public Order makeOrder(@RequestBody Order order){
         return orderRepository.save(order);
     }
 }

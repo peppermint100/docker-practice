@@ -1,0 +1,1 @@
+CREATE DATABASE mysql_docker IF NOT EXISTS;

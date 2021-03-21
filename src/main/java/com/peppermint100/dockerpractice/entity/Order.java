@@ -15,12 +15,11 @@ import javax.validation.constraints.NotEmpty;
 @ToString
 @NoArgsConstructor
 public class Order {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @NotEmpty
     private String coffeeName;
-    @NotEmpty
     private String description;
 
     private int amount;
